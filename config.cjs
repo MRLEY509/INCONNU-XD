@@ -6,8 +6,8 @@ const fs = require("fs");
 require("dotenv").config();
 
 const config = {
-  SESSION_ID: process.env.SESSION_ID || "",
-  PREFIX: process.env.PREFIX || '.',
+  SESSION_ID: process.env.SESSION_ID || "INCONNU~XD~5D9G2TTS#-_UZrxm6FbHL_jTETp7UnbVx3ju2Jxgg8a6JopIQSFU",
+  PREFIX: process.env.PREFIX || '☤',
   AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN !== undefined ? process.env.AUTO_STATUS_SEEN === 'true' : true, 
   AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY !== undefined ? process.env.AUTO_STATUS_REPLY === 'true' : true,
   STATUS_READ_MSG: process.env.STATUS_READ_MSG || '',
@@ -23,12 +23,12 @@ const config = {
   
   REJECT_CALL: process.env.REJECT_CALL !== undefined ? process.env.REJECT_CALL === 'true' : false, 
   NOT_ALLOW: process.env.NOT_ALLOW !== undefined ? process.env.NOT_ALLOW === 'true' : true,
-  MODE: process.env.MODE || "public",
-  BOT_NAME: process.env.BOT_NAME || "INCONNU-XD",
+  MODE: process.env.MODE || "private",
+  BOT_NAME: process.env.BOT_NAME || "RECTANGLE-XD",
   MENU_IMAGE: process.env.MENU_IMAGE || "https://files.catbox.moe/230q0c.jpg",
-  DESCRIPTION: process.env.DESCRIPTION || "WELCOME TO INCONNU-XD",
-  OWNER_NAME: process.env.OWNER_NAME || "INCONNU-XD",
-  OWNER_NUMBER: process.env.OWNER_NUMBER || "554488138425",
+  DESCRIPTION: process.env.DESCRIPTION || "WELCOME TO RECTANGLE-XD",
+  OWNER_NAME: process.env.OWNER_NAME || "RECTANGLE-XD",
+  OWNER_NUMBER: process.env.OWNER_NUMBER || "50955606376",
   GEMINI_KEY: process.env.GEMINI_KEY || "AIzaSyCUPaxfIdZawsKZKqCqJcC-GWiQPCXKTDc",
   WELCOME: process.env.WELCOME !== undefined ? process.env.WELCOME === 'true' : false, 
 };
