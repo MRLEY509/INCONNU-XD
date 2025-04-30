@@ -6,7 +6,7 @@ const fs = require("fs");
 require("dotenv").config();
 
 const config = {
-  SESSION_ID: process.env.SESSION_ID || "INCONNU~XD~4aFxDDiS#4qor9jw3Yb8cnRl85p0saKwM_ZjNuzklA9Mh1GNOGuM",
+  SESSION_ID: process.env.SESSION_ID || "INCONNU~XD~AWUQ0JpS#jneqJ0FcCX3KSr8gQdyPoNmkXNv025D54aDeP_HQhx4",
   PREFIX: process.env.PREFIX || '☤',
   AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN !== undefined ? process.env.AUTO_STATUS_SEEN === 'true' : true, 
   AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY !== undefined ? process.env.AUTO_STATUS_REPLY === 'true' : true,
@@ -28,7 +28,7 @@ const config = {
   MENU_IMAGE: process.env.MENU_IMAGE || "https://files.catbox.moe/umpjhb.jpg",
   DESCRIPTION: process.env.DESCRIPTION || "WELCOME TO PROFESSEUR-XD",
   OWNER_NAME: process.env.OWNER_NAME || "PROFESSEUR-XD",
-  OWNER_NUMBER: process.env.OWNER_NUMBER || "50955606376",
+  OWNER_NUMBER: process.env.OWNER_NUMBER || "522219610140",
   GEMINI_KEY: process.env.GEMINI_KEY || "AIzaSyCUPaxfIdZawsKZKqCqJcC-GWiQPCXKTDc",
   WELCOME: process.env.WELCOME !== undefined ? process.env.WELCOME === 'true' : false, 
 };
